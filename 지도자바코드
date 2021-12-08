@@ -1,0 +1,62 @@
+package com.cookandroid.cookmap;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Context;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.MapsInitializer;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
+
+    // 구글 맵 참조변수 생성
+    GoogleMap mMap;
+
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+    }
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        // 구글 맵 객체를 불러온다.
+        mMap = googleMap;
+
+        // 에 대한 위치 설정
+        LatLng Dajeon = new LatLng(36.333678, 127.457108);
+
+        // 구글 맵에 표시할 마커에 대한 옵션 설정
+        MarkerOptions makerOptions = new MarkerOptions();
+        makerOptions
+                .position(Dajeon)
+                .title("원하는 위치(위도, 경도)에 마커를 표시했습니다.");
+
+        // 마커를 생성한다.
+        mMap.addMarker(makerOptions);
+
+        //카메라를  위치로 옮긴다.
+
+    }
+}
