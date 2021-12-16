@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//개발자 정보 버튼 클릭시 액티비티 전환
+
         Button coffee_btn = (Button) findViewById(R.id.coffee_btn);
         coffee_btn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), coffee.class);
                 startActivity(intent);
             }
-        });
-//닉네임규정 버튼 클릭시 액티비티 전환
+        }); //커피버튼 클릭시 화면전환
+
         Button juice_btn = (Button) findViewById(R.id.juice_btn);
         juice_btn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), juice.class);
                 startActivity(intent);
             }
-        });
+        }); //주스 버튼 클릭시 화면전환
         Button latte_btn = (Button) findViewById(R.id.latte_btn);
         latte_btn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), latte.class);
                 startActivity(intent);
             }
-        });
+        }); // 라떼버튼 클릭시 화면전환
         Button smoothie_btn = (Button) findViewById(R.id.smoothie_btn);
         smoothie_btn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), smoothie.class);
                 startActivity(intent);
             }
-        });
+        }); //스무디 버튼클릭시 화면전환
         Button tie_btn = (Button) findViewById(R.id.tie_btn);
         tie_btn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), tie.class);
                 startActivity(intent);
             }
-        });
+        }); //티 버튼클릭시 화면전환
         Button bubble_btn = (Button) findViewById(R.id.bubble_btn);
         bubble_btn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -59,6 +59,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), bubbletie.class);
                 startActivity(intent);
             }
-        });
+        }); //버블티 버튼클릭시 화면전환
     }
 }
