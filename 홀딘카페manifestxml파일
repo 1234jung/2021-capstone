@@ -21,7 +21,7 @@
         <activity android:name=".juice"/>
         <activity android:name=".latte"/>
         <activity android:name=".smoothie"/>
-        <activity android:name=".tie"/>
+        <activity android:name=".tie"/> //화면전환할때 필요한 액티비티소스코드
     </application>
 
 </manifest>
