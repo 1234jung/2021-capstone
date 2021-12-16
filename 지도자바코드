@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         // 구글 맵 객체를 불러온다.
         mMap = googleMap;
 
-        // 에 대한 위치 설정
+        // 지도에 대한 위치 설정
         LatLng Dajeon = new LatLng(36.333678, 127.457108);
 
         // 구글 맵에 표시할 마커에 대한 옵션 설정
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         // 마커를 생성한다.
         mMap.addMarker(makerOptions);
 
-        //카메라를  위치로 옮긴다.
+        
 
     }
 }
