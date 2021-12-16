@@ -7,13 +7,13 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"> //스크롤뷰 코드
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        >
+        > // 라인레이아웃코드
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
