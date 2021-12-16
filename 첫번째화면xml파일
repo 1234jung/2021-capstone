@@ -17,7 +17,7 @@
         android:text="시작"
         android:gravity="center_horizontal"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp" /> // 지도넘어가는 버튼
 
     <TextView
         android:id="@+id/textView"
@@ -27,7 +27,7 @@
         android:text="TEAM__Coffee"
         android:textSize="40dp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="66dp" />
+        tools:layout_editor_absoluteY="66dp" /> 
 
     <ImageView
         android:id="@+id/imageView"
