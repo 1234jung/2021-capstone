@@ -14,22 +14,27 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:1211shjung" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d74cde03-6613-4ff8-ab69-0c7a96794eda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d74cde03-6613-4ff8-ab69-0c7a96794eda" name="Default Changelist" comment="chang5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/helloandroid1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/1234jung/HelloAndroid.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="22PVhw21mpy6NZWn3k88k7bZlVZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639740698572</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chang5">
+      <created>1639741023229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639741023230</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chang5">
+      <created>1639741241440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639741241440</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,7 +115,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="1211shjung" />
                       </list>
                     </value>
                   </entry>
@@ -117,7 +136,8 @@
     <MESSAGE value="change2" />
     <MESSAGE value="change3" />
     <MESSAGE value="change4" />
-    <option name="LAST_COMMIT_MESSAGE" value="change4" />
+    <MESSAGE value="chang5" />
+    <option name="LAST_COMMIT_MESSAGE" value="chang5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="277" y="56" key="SettingsEditor" timestamp="1639740896001">
